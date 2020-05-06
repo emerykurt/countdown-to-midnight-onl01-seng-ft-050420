@@ -13,5 +13,6 @@ def countdown_with_sleep (number = 10)
   while number > 0 
   puts "#{number}"
   number -= 1 
+  sleep 1 
   end 
 end
